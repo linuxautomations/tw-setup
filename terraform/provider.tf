@@ -2,7 +2,7 @@ provider "aws" {}
 
 terraform {
     backend "s3" {
-        bucket = "terraform-july-2019"
+        bucket = "terraform-july-2019-100"
         key    = "mediawiki/terraform.tfstate"
         region = "us-east-1"
   }
